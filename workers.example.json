@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "workers": {
+    "explain": { "provider": "claude", "model": "YOUR_READING_MODEL" },
+    "review": { "provider": "codex", "model": "YOUR_REVIEW_MODEL" },
+    "draft": { "provider": "codex", "model": "YOUR_CODING_MODEL" }
+  }
+}

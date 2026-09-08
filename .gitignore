@@ -1,0 +1,8 @@
+node_modules/
+coverage/
+*.tgz
+workers.local.json
+.env
+.env.*
+output/
+.DS_Store

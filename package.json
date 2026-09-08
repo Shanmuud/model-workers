@@ -1,0 +1,16 @@
+{
+  "name": "model-workers-cli",
+  "version": "0.1.0",
+  "description": "Small, inspectable model workers for repository explanations, reviews, and drafts.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "bin": { "model-workers": "bin/model-workers.mjs" },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node bin/model-workers.mjs explain --repo examples/payment-app --path payments.js --question \"What happens when a payment fails?\" --provider demo"
+  },
+  "files": ["bin/", "lib/", "examples/", "docs/", "workers.example.json"],
+  "repository": { "type": "git", "url": "https://github.com/Shanmuud/model-workers.git" },
+  "keywords": ["ai", "cli", "codex", "claude", "model-routing"]
+}
